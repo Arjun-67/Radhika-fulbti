@@ -14,16 +14,22 @@
             box-sizing: border-box;
         }
 
-        body {
+        
+         body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            min-height: 100vh;
             font-family: Arial, sans-serif;
             background: linear-gradient(135deg, #fff3e0, #ffe0b2);
             color: #4a2100;
+            overflow-x: hidden;
         }
 
         .hero {
             width: 100%;
             min-height: 100vh;
-            display: flex;
+            display: block;
             justify-content: center;
             padding: 0;
             text-align: center;
@@ -32,9 +38,9 @@
 
         .card {
             width: 100%;
-            max-width: 500px;
+            max-width: none;
             background: rgba(255,255,255,0.95);
-            border-radius: 28px;
+            border-radius: 0px;
             padding: 25px;
             box-shadow: 0 15px 40px rgba(100, 40, 0, 0.25);
         }
